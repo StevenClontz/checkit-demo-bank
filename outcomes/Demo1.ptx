@@ -1,0 +1,19 @@
+<exercise>
+  <statement>
+      <p>
+For each of the following line equations, identify its slope.
+      </p>
+      <ol>
+          <xsl:for-each select="lines/*">
+              <li><m><xsl:value-of select="equation"/></m></li>
+          </xsl:for-each>
+      </ol>
+  </statement>
+  <answer>
+      <ol>
+          <xsl:for-each select="lines/*">
+              <li><m><xsl:value-of select="slope"/></m></li>
+          </xsl:for-each>
+      </ol>
+  </answer>
+</exercise>

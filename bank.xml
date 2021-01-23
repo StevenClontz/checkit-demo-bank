@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank>
+    <title>Demo Bank</title>
+    <author>Your Name Here</author>
+    <url>https://checkit.clontz.org</url>
+    <slug>demo-bank</slug>
+    <outcomes>
+        <outcome>
+            <title>Line Slopes</title>
+            <slug>Demo1</slug>
+            <description>
+Identify the slope of a line from its equation
+            </description>
+            <alignment>
+Your Favorite Textbook, Section 1.2.3
+            </alignment>
+        </outcome>
+        <outcome>
+            <title>Product Rule</title>
+            <slug>Demo2</slug>
+            <description>
+Apply the product rule to take derivatives
+            </description>
+            <alignment>
+Your Favorite Textbook, Section 1.2.4
+            </alignment>
+        </outcome>
+    </outcomes>
+</bank>
